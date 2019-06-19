@@ -45,11 +45,11 @@ public class main extends JavaPlugin {
 						Menu m = new Menu(ar, p);
 						menus.put(p, m);
 					} else {
-						p.sendMessage("§cNo Armor Stand was found in your field of view.");
+						p.sendMessage("Â§cNo Armor Stand was found in your field of view.");
 					}
 					
 				} else {
-					p.sendMessage("§cI'm sorry, but you do not have the permissions to perform this command. Please contact the server administrators if you believe that this is in error.");
+					p.sendMessage("Â§cI'm sorry, but you do not have the permissions to perform this command. Please contact the server administrators if you believe that this is in error.");
 				}
 			}
 		} else {
