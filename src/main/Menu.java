@@ -42,15 +42,15 @@ public class Menu {
 	public static ItemStack tagglow = new ItemStack(Material.GLOWSTONE);
 	public static ItemStack taginvu = new ItemStack(Material.BEDROCK);
 	
-	public static Inventory MainMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Main Menu");
-	public static Inventory MoveMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Menu");
-	public static Inventory TagMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Tag Menu");
-	public static Inventory MoveHeadMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Head Menu");
-	public static Inventory MoveLeftArmMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Left Arm Menu");
-	public static Inventory MoveRightArmMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Right Arm Menu");
-	public static Inventory MoveLeftLegMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Left Leg Menu");
-	public static Inventory MoveRightLegMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Right Leg Menu");
-	public static Inventory MoveBodyMenu = Bukkit.createInventory(null, 9 * 5, "§5Controller §6| Move Body Menu");
+	public static Inventory MainMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Main Menu");
+	public static Inventory MoveMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Menu");
+	public static Inventory TagMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Tag Menu");
+	public static Inventory MoveHeadMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Head Menu");
+	public static Inventory MoveLeftArmMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Left Arm Menu");
+	public static Inventory MoveRightArmMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Right Arm Menu");
+	public static Inventory MoveLeftLegMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Left Leg Menu");
+	public static Inventory MoveRightLegMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Right Leg Menu");
+	public static Inventory MoveBodyMenu = Bukkit.createInventory(null, 9 * 5, "Â§5Controller Â§6| Move Body Menu");
 	
 	ArmorStand ar;
 	Player p;
@@ -65,51 +65,51 @@ public class Menu {
 	
 	private void register() {
 		ItemMeta m = move.getItemMeta();
-		m.setDisplayName("§7Movement");
+		m.setDisplayName("Â§7Movement");
 		move.setItemMeta(m);
 		
 		m = tags.getItemMeta();
-		m.setDisplayName("§9Tags");
+		m.setDisplayName("Â§9Tags");
 		tags.setItemMeta(m);
 		
 		m = head.getItemMeta();
-		m.setDisplayName("§eMove Head");
+		m.setDisplayName("Â§eMove Head");
 		head.setItemMeta(m);
 		
 		m = leftarm.getItemMeta();
-		m.setDisplayName("§eMove Left Arm");
+		m.setDisplayName("Â§eMove Left Arm");
 		leftarm.setItemMeta(m);
 		
 		m = rightarm.getItemMeta();
-		m.setDisplayName("§eMove Right Arm");
+		m.setDisplayName("Â§eMove Right Arm");
 		rightarm.setItemMeta(m);
 		
 		m = lefthand.getItemMeta();
-		m.setDisplayName("§3Move Left Hand");
+		m.setDisplayName("Â§3Move Left Hand");
 		lefthand.setItemMeta(m);
 		
 		m = righthand.getItemMeta();
-		m.setDisplayName("§3Move Right Hand");
+		m.setDisplayName("Â§3Move Right Hand");
 		righthand.setItemMeta(m);
 		
 		m = body.getItemMeta();
-		m.setDisplayName("§eMove Body");
+		m.setDisplayName("Â§eMove Body");
 		body.setItemMeta(m);
 		
 		m = leftleg.getItemMeta();
-		m.setDisplayName("§eChose Left Leg");
+		m.setDisplayName("Â§eChose Left Leg");
 		leftleg.setItemMeta(m);
 		
 		m = rightleg.getItemMeta();
-		m.setDisplayName("§eChose Right Leg");
+		m.setDisplayName("Â§eChose Right Leg");
 		rightleg.setItemMeta(m);
 		
 		m = remove.getItemMeta();
-		m.setDisplayName("§cRemove");
+		m.setDisplayName("Â§cRemove");
 		remove.setItemMeta(m);
 		
 		m = reset.getItemMeta();
-		m.setDisplayName("§4Reset");
+		m.setDisplayName("Â§4Reset");
 		reset.setItemMeta(m);
 		
 		//__________________________________
@@ -135,19 +135,19 @@ public class Menu {
 		//__________________________________
 		
 		m = moveleft.getItemMeta();
-		m.setDisplayName("§eMove Left");
+		m.setDisplayName("Â§eMove Left");
 		moveleft.setItemMeta(m);
 		
 		m = moveright.getItemMeta();
-		m.setDisplayName("§eMove Right");
+		m.setDisplayName("Â§eMove Right");
 		moveright.setItemMeta(m);
 		
 		m = movevor.getItemMeta();
-		m.setDisplayName("§eMove in Front");
+		m.setDisplayName("Â§eMove in Front");
 		movevor.setItemMeta(m);
 		
 		m = moveback.getItemMeta();
-		m.setDisplayName("§eMove Back");
+		m.setDisplayName("Â§eMove Back");
 		moveback.setItemMeta(m);
 		
 		//__________________________________
@@ -195,19 +195,19 @@ public class Menu {
 		//__________________________________
 		
 		m = moveup.getItemMeta();
-		m.setDisplayName("§eMove-Up");
+		m.setDisplayName("Â§eMove-Up");
 		moveup.setItemMeta(m);
 		
 		m = movedown.getItemMeta();
-		m.setDisplayName("§eMove-Down");
+		m.setDisplayName("Â§eMove-Down");
 		movedown.setItemMeta(m);
 		
 		m = moverotleft.getItemMeta();
-		m.setDisplayName("§eRotate-Left");
+		m.setDisplayName("Â§eRotate-Left");
 		moverotleft.setItemMeta(m);
 		
 		m = moverotright.getItemMeta();
-		m.setDisplayName("§eRotate-Right");
+		m.setDisplayName("Â§eRotate-Right");
 		moverotright.setItemMeta(m);
 		
 		//_________________________________
@@ -220,35 +220,35 @@ public class Menu {
 		//_________________________________
 		
 		m = taggravity.getItemMeta();
-		m.setDisplayName("§dGravity: " + this.ar.hasGravity());
+		m.setDisplayName("Â§dGravity: " + this.ar.hasGravity());
 		taggravity.setItemMeta(m);
 		
 		m = tagarms.getItemMeta();
-		m.setDisplayName("§bArms: " + this.ar.hasArms());
+		m.setDisplayName("Â§bArms: " + this.ar.hasArms());
 		tagarms.setItemMeta(m);
 		
 		m = tagsmall.getItemMeta();
-		m.setDisplayName("§2Small: " + this.ar.isSmall());
+		m.setDisplayName("Â§2Small: " + this.ar.isSmall());
 		tagsmall.setItemMeta(m);
 		
 		m = tagarms.getItemMeta();
-		m.setDisplayName("§aInvisible: " + !this.ar.isVisible());
+		m.setDisplayName("Â§aInvisible: " + !this.ar.isVisible());
 		taginvis.setItemMeta(m);
 		
 		m = tagbase.getItemMeta();
-		m.setDisplayName("§5Base Plate: " + this.ar.hasBasePlate());
+		m.setDisplayName("Â§5Base Plate: " + this.ar.hasBasePlate());
 		tagbase.setItemMeta(m);
 		
 		m = taghead.getItemMeta();
-		m.setDisplayName("§3Head: " + this.ar.getHelmet().getType().name().toUpperCase());
+		m.setDisplayName("Â§3Head: " + this.ar.getHelmet().getType().name().toUpperCase());
 		taghead.setItemMeta(m);
 		
 		m = tagglow.getItemMeta();
-		m.setDisplayName("§aGlowing: " + this.ar.isGlowing());
+		m.setDisplayName("Â§aGlowing: " + this.ar.isGlowing());
 		tagglow.setItemMeta(m);
 		
 		m = taginvu.getItemMeta();
-		m.setDisplayName("§9Indestructible: " + this.ar.isInvulnerable());
+		m.setDisplayName("Â§9Indestructible: " + this.ar.isInvulnerable());
 		taginvu.setItemMeta(m);
 		
 		//_________________________________
