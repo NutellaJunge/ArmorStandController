@@ -106,48 +106,48 @@ public class Click implements Listener {
 		if (inv.equals(Menu.TagMenu)) {
 			if (item.equals(Menu.taggravity)) {
 				main.menus.get(p).getArmorStand().setGravity(!main.menus.get(p).getArmorStand().hasGravity());
-				p.sendMessage("§dThe Gravity is Change to " + main.menus.get(p).getArmorStand().hasGravity());
+				p.sendMessage("Â§dThe Gravity is Change to " + main.menus.get(p).getArmorStand().hasGravity());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.tagarms)) {
 				main.menus.get(p).getArmorStand().setArms(!main.menus.get(p).getArmorStand().hasArms());
-				p.sendMessage("§bThe Arms are Changed to " + main.menus.get(p).getArmorStand().hasArms());
+				p.sendMessage("Â§bThe Arms are Changed to " + main.menus.get(p).getArmorStand().hasArms());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.taginvis)) {
 				main.menus.get(p).getArmorStand().setVisible(!main.menus.get(p).getArmorStand().isVisible());
-				p.sendMessage("§aThe Armor Stand is Visible: " + main.menus.get(p).getArmorStand().isVisible());
+				p.sendMessage("Â§aThe Armor Stand is Visible: " + main.menus.get(p).getArmorStand().isVisible());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.tagsmall)) {
 				main.menus.get(p).getArmorStand().setSmall(!main.menus.get(p).getArmorStand().isSmall());
-				p.sendMessage("§2The Armor Stand is Small: " + main.menus.get(p).getArmorStand().isSmall());
+				p.sendMessage("Â§2The Armor Stand is Small: " + main.menus.get(p).getArmorStand().isSmall());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.tagbase)) {
 				main.menus.get(p).getArmorStand().setBasePlate(!main.menus.get(p).getArmorStand().hasBasePlate());
-				p.sendMessage("§5The Base Plate is change to " + main.menus.get(p).getArmorStand().hasBasePlate());
+				p.sendMessage("Â§5The Base Plate is change to " + main.menus.get(p).getArmorStand().hasBasePlate());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.taghead)) {
 				main.menus.get(p).getArmorStand().setHelmet(e.getCursor());
-				p.sendMessage("§3The Head is change to " + main.menus.get(p).getArmorStand().getHelmet().getType().name().toUpperCase());
+				p.sendMessage("Â§3The Head is change to " + main.menus.get(p).getArmorStand().getHelmet().getType().name().toUpperCase());
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.tagglow)) {
 				main.menus.get(p).getArmorStand().setGlowing(!main.menus.get(p).getArmorStand().isGlowing());
-				p.sendMessage("§aThe Glowing Effekt is change to " + main.menus.get(p).getArmorStand().isGlowing());
+				p.sendMessage("Â§aThe Glowing Effekt is change to " + main.menus.get(p).getArmorStand().isGlowing());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
 			if (item.equals(Menu.taginvu)) {
 				main.menus.get(p).getArmorStand().setInvulnerable(!main.menus.get(p).getArmorStand().isInvulnerable());
-				p.sendMessage("§5The Indestructibility is change to " + main.menus.get(p).getArmorStand().isInvulnerable());
+				p.sendMessage("Â§5The Indestructibility is change to " + main.menus.get(p).getArmorStand().isInvulnerable());
 				p.closeInventory();
 				e.setCancelled(true);
 			}
