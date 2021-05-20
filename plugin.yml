@@ -1,0 +1,15 @@
+name: ArmorStandEdit
+version: 2.1.2
+api-version: 1.16
+autor: paul05
+main: de.paul.ArmorStandEdit.main
+commands:
+   editarmorstand:
+      description: You can edit Armor Stands
+      aliases: [eas]
+      permission: armorstand.edit
+permissions:
+   armorstand.edit:
+      default: op
+      description: Permission to Edit Armor Stands.
+   
